@@ -1,0 +1,12 @@
+﻿@page "/byfolder"
+@using Nj.Samples.FileSystemAccess.Abstractions
+
+@inject IFileSystemAccessVm ViewModel
+
+<CascadingValue Name="ViewModel" Value="ViewModel">
+    <FileSystemFolderComponent></FileSystemFolderComponent>
+</CascadingValue>
+
+@code{
+
+}
